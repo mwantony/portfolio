@@ -1,11 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import blog from "../../Assets/Projects/blog.png";
 import vinki from "../../Assets/Projects/vinki.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
 
 function Projects() {
@@ -45,16 +42,14 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={blog}
               isBlog={false}
               title="Blog"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description="Este é o meu espaço pessoal onde compartilho minhas ideias, pensamentos e conhecimentos sobre diversos tópicos. O que torna este blog especial é que foi construído com a poderosa tecnologia Next.js."
               ghLink="https://github.com/mwantony/blog"
               demoLink="https://antonymwblog.vercel.app"
             />
           </Col>
-
-
         </Row>
       </Container>
     </Container>
