@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import vinki from "../../Assets/Projects/vinki.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -21,11 +21,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={vinki}
               isBlog={false}
               title="Vinki"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              description="Bem-vindo ao repositório oficial do Vinki, um moderno e-commerce desenvolvido com React e Node. Com o Vinki, estamos transformando a experiência de compras online, oferecendo aos nossos clientes uma interface elegante e recursos avançados."
+              ghLink="https://github.com/mwantony/vinki"
               demoLink="https://www.vinki.com.br"
             />
           </Col>
