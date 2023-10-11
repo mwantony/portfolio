@@ -9,7 +9,7 @@ import { Analytics } from '@vercel/analytics/react';
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Analytics />
+    <Analytics mode={'production'}/>
   </React.StrictMode>,
   document.getElementById("root")
 );
