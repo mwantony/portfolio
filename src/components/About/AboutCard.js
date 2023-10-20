@@ -14,7 +14,7 @@ function AboutCard() {
             Sou um estudante do segundo ano do Ensino Médio
             <br />
             Além disso, atualmente sou CEO de um e-commerce chamado{" "}
-            <a href="https://www.vinki.com.br" target="_blank" rel="noreferrer">
+            <a href="https://vinki.vercel.app" target="_blank" rel="noreferrer">
               Vinki
             </a>
             .

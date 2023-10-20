@@ -23,7 +23,7 @@ function Projects() {
               title="Vinki"
               description="Bem-vindo ao repositório oficial do Vinki, um moderno e-commerce desenvolvido com React e Node. Com o Vinki, estamos transformando a experiência de compras online, oferecendo aos nossos clientes uma interface elegante e recursos avançados."
               ghLink="https://github.com/mwantony/vinki"
-              demoLink="https://www.vinki.com.br"
+              demoLink="https://vinki.vercel.app"
             />
           </Col>
 
