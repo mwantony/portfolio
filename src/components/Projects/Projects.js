@@ -21,7 +21,7 @@ function Projects() {
               imgPath={vinki}
               isBlog={false}
               title="Vinki"
-              description="Bem-vindo ao repositório oficial do Vinki, um moderno e-commerce desenvolvido com React e Node. Com o Vinki, estamos transformando a experiência de compras online, oferecendo aos nossos clientes uma interface elegante e recursos avançados."
+              description="Welcome to the official Vinki repository, a modern e-commerce developed with React and Node. With Vinki, we are transforming the online shopping experience by offering our customers a sleek interface and advanced features."
               ghLink="https://github.com/mwantony/vinki"
               demoLink="https://vinki.vercel.app"
             />
@@ -32,9 +32,7 @@ function Projects() {
               imgPath={portfolio}
               isBlog={false}
               title="Portfolio"
-              description="Bem-vindo ao meu Portfolio Pessoal!
-
-              Este é o lugar onde você pode explorar meu trabalho e conhecer mais sobre minha jornada profissional. Criei este portfolio com o poderoso framework React para proporcionar uma experiência interativa e envolvente."
+              description="Welcome to my Personal Portfolio! This is where you can explore my work and learn more about my professional journey. I created this portfolio using the powerful React framework to provide an interactive and engaging experience."
               ghLink="https://github.com/mwantony/portfolio"
               demoLink="https://antonymazierowarken.vercel.app/"
             />
@@ -45,7 +43,7 @@ function Projects() {
               imgPath={blog}
               isBlog={false}
               title="Blog"
-              description="Este é o meu espaço pessoal onde compartilho minhas ideias, pensamentos e conhecimentos sobre diversos tópicos. O que torna este blog especial é que foi construído com a poderosa tecnologia Next.js."
+              description="This is my personal space where I share my ideas, thoughts, and knowledge on various topics. What makes this blog special is that it was built with the powerful Next.js technology."
               ghLink="https://github.com/mwantony/blog"
               demoLink="https://antonymwblog.vercel.app"
             />
