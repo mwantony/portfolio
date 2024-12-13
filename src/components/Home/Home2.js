@@ -13,41 +13,15 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              SAIBA QUEM <span className="purple"> SOU </span> EU
+              WHO <span className="purple"> AM </span> I?
             </h1>
             <p className="home-about-body">
-              Meu nome é Antony Maziero Warken e sou um entusiasta do
-              desenvolvimento de sistemas. 🤷‍♂️
-              <br />
-              <br />
-              Tenho um nível avançado de{" "}
-              <i>
-                <b className="purple">inglês</b>
-              </i>
-              , o que me permite participar de projetos internacionais
-              <br />
-              <br />
-              Estou aprofundando meus conhecimento em tecnologias como &nbsp;
-              <i>
-                <b className="purple">ReactJS, </b>
-                <b className="purple">NodeJS, </b>
-                <b className="purple">NextJS, </b> e
-                <b className="purple"> MySQL</b>
-              </i>
-              <br />
-              <br />
-              Sempre que possível, desenvolvo projetos com{" "}
-              <b className="purple">Node.js</b>,
-              <i>
-                <b className="purple">
-                  {" "}
-                  Bibliotecas e Frameworks modernos do JavaScript
-                </b>
-              </i>
-              &nbsp;como
-              <i>
-                <b className="purple"> React.js e Next.js</b>
-              </i>
+              I’m Antony Maziero Warken, a passionate developer focused on
+              React, Next.js, Node.js, and PostgreSQL. I’ve built portfolio,
+              live at https://antonymw.vercel.app. <br></br>
+              <br></br>With advanced English and a drive to learn, I’m eager to
+              contribute to innovative projects and grow alongside talented
+              teams. Let’s connect!
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -62,10 +36,10 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FALE COMIGO</h1>
+            <h1>TALK TO ME</h1>
             <p>
-              Sinta-se livre para se<span className="purple"> conectar </span>
-              comigo
+              Feel free to<span className="purple"> connect </span>
+              with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

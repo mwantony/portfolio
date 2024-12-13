@@ -12,7 +12,7 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Olá!{" "}
+                Hey!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   <svg
                     width="30"
@@ -47,7 +47,7 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                Eu sou
+                I'm
                 <strong className="main-name"> ANTONY MAZIERO WARKEN</strong>
               </h1>
 

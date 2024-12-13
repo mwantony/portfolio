@@ -4,7 +4,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -21,26 +20,27 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Saiba quem eu<strong className="purple"> sou</strong>
+              Who <strong className="purple"> am </strong>I?
             </h1>
             <Aboutcard />
           </Col>
           <Col
             md={5}
+            
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={'https://github.com/mwantony.png'} alt="about" className="img-fluid" />
           </Col>
         </Row>
         <h1 className="project-heading">
-          Habilidades <strong className="purple">Profissionais </strong>
+          Professional <strong className="purple">Skills</strong>
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Ferramentas</strong> que uso
+          <strong className="purple">Tools</strong> that I use
         </h1>
         <Toolstack />
 

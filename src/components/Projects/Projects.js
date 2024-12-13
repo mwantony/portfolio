@@ -10,10 +10,10 @@ function Projects() {
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">
-          Meus projetos <strong className="purple">recentes </strong>
+          Recent <strong className="purple">projects</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Aqui tem alguns projetos que trabalhei recentemente.
+          Some of the projects I've worked on recently.{" "}
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">

@@ -8,36 +8,20 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Olá, eu sou <span className="purple">Antony Maziero Warken </span>
-            de <span className="purple"> Santa Catarina, Brasil.</span>
+            Hi, I’m <span className="purple">Antony Maziero Warken</span> from{" "}
+            <span className="purple">Santa Catarina, Brazil</span>.
             <br />
-            Sou um estudante do segundo ano do Ensino Médio
-            <br />
-            Além disso, atualmente sou CEO de um e-commerce chamado{" "}
-            <a href="https://vinki.vercel.app" target="_blank" rel="noreferrer">
-              Vinki
-            </a>
-            .
+            I have worked as a developer in some companies, always striving to
+            learn more and improve my skills.
             <br />
             <br />
-            Além de codar, aqui tem algumas atividades que eu amo fazer!
+            I have fluent English, which allows me to work on international
+            projects.
+            <br />
+            <br />I am passionate about creating innovative solutions and
+            constantly seek new opportunities to grow professionally. Let's
+            connect and explore how we can collaborate!
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Ler
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Finanças
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Viajar
-            </li>
-          </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "O investimento mais importante que você pode fazer é em você mesmo."{" "}
-          </p>
-          <footer className="blockquote-footer">Warren Buffett</footer>
         </blockquote>
       </Card.Body>
     </Card>
