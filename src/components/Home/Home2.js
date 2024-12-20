@@ -19,7 +19,7 @@ function Home2() {
               I’m Antony Maziero Warken, a passionate developer focused on
               React, Next.js, Node.js, and PostgreSQL. I’ve built portfolio,
               live at{" "}
-              <a href="https://antonymw.vercel.app" target="_blank">
+              <a href="https://antonymw.vercel.app" target="_blank" rel="noreferrer">
                 antonymw.vercel.app
               </a>
               . <br></br>
