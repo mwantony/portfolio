@@ -18,7 +18,11 @@ function Home2() {
             <p className="home-about-body">
               I’m Antony Maziero Warken, a passionate developer focused on
               React, Next.js, Node.js, and PostgreSQL. I’ve built portfolio,
-              live at https://antonymw.vercel.app. <br></br>
+              live at{" "}
+              <a href="https://antonymw.vercel.app" target="_blank">
+                antonymw.vercel.app
+              </a>
+              . <br></br>
               <br></br>With advanced English and a drive to learn, I’m eager to
               contribute to innovative projects and grow alongside talented
               teams. Let’s connect!
