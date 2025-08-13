@@ -13,7 +13,7 @@ function Footer() {
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>
-            Developed by{" "}
+            Desenvolvido por {" "}
             <a
               href="https://github.com/mwantony"
               target="_blank"
