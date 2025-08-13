@@ -24,7 +24,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download
+            &nbsp;Baixar
           </Button>
         </Row>
 
@@ -51,7 +51,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download
+            &nbsp;Baixar
           </Button>
         </Row>
       </Container>
