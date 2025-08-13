@@ -8,19 +8,21 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi, I’m <span className="purple">Antony Maziero Warken</span> from{" "}
-            <span className="purple">Santa Catarina, Brazil</span>.
+            Olá, meu nome é{" "}
+            <span className="purple">Antony Maziero Warken</span> e sou de{" "}
+            <span className="purple">Santa Catarina, Brasil</span>.
             <br />
-            I have worked as a developer in some companies, always striving to
-            learn more and improve my skills.
+            Trabalhei como desenvolvedor em algumas empresas, sempre buscando
+            aprender mais e aprimorar minhas habilidades.
             <br />
             <br />
-            I have fluent English, which allows me to work on international
-            projects.
+            Tenho inglês fluente, o que me permite trabalhar em projetos
+            internacionais.
             <br />
-            <br />I am passionate about creating innovative solutions and
-            constantly seek new opportunities to grow professionally. Let's
-            connect and explore how we can collaborate!
+            <br />
+            Sou apaixonado por criar soluções inovadoras e busco constantemente
+            novas oportunidades de crescimento profissional. Vamos nos conectar
+            e explorar como podemos colaborar!
           </p>
         </blockquote>
       </Card.Body>

@@ -13,19 +13,18 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              WHO <span className="purple"> AM </span> I?
+              QUEM <span className="purple"> SOU </span> EU?
             </h1>
             <p className="home-about-body">
-              I’m Antony Maziero Warken, a passionate developer focused on
-              ReactJS. I’ve built portfolio,
-              live at{" "}
-              <a href="https://antonymw.vercel.app" target="_blank" rel="noreferrer">
-                antonymw.vercel.app
+              Sou Antony Maziero Warken, um desenvolvedor apaixonado por
+              ReactJS. Criei um sistema de comandas para restaurantes em{" "}
+              <a href="https://tyra.com.br" target="_blank" rel="noreferrer">
+                tyra.com.br
               </a>
               . <br></br>
-              <br></br>With advanced English and a drive to learn, I’m eager to
-              contribute to innovative projects and grow alongside talented
-              teams. Let’s connect!
+              <br></br>Com inglês avançado e muita vontade de aprender, estou
+              ansioso para contribuir para projetos inovadores e crescer ao lado
+              de equipes talentosas. Vamos nos conectar!
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -40,10 +39,11 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>TALK TO ME</h1>
+            <h1>FALE COMIGO</h1>
             <p>
-              Feel free to<span className="purple"> connect </span>
-              with me
+              Sinta-se à vontade para
+              <span className="purple"> se conectar </span>
+              comigo
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

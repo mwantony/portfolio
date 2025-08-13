@@ -10,10 +10,10 @@ function Projects() {
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">
-          Recent <strong className="purple">projects</strong>
+          Projetos <strong className="purple">recentes</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Some of the projects I've worked on recently.{" "}
+          Alguns dos projetos em que trabalhei recentemente.{" "}
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -21,7 +21,7 @@ function Projects() {
               imgPath={tyra}
               isBlog={false}
               title="Tyra"
-              description="Welcome to the official Tyra repository, a modern web system developed with React and PHP Laravel. With Tyra, we are transforming the restaurants way of delivering and serving their clients."
+              description="Bem-vindo ao repositório oficial do Tyra, um sistema web moderno desenvolvido com React e PHP Laravel. Com o Tyra, estamos transformando a forma como os restaurantes entregam e atendem seus clientes."
               ghLink="https://github.com/mwantony/tyra-frontend"
               demoLink="https://tyra.com.br"
             />
@@ -32,7 +32,7 @@ function Projects() {
               imgPath={portfolio}
               isBlog={false}
               title="Portfolio"
-              description="Welcome to my Personal Portfolio! This is where you can explore my work and learn more about my professional journey. I created this portfolio using the powerful React framework to provide an interactive and engaging experience."
+              description="Bem-vindo ao meu Portfólio Pessoal! Aqui você pode explorar meu trabalho e aprender mais sobre minha trajetória profissional. Criei este portfólio usando o poderoso framework React para proporcionar uma experiência interativa e envolvente."
               ghLink="https://github.com/mwantony/portfolio"
               demoLink="https://antonymazierowarken.vercel.app/"
             />
@@ -43,7 +43,7 @@ function Projects() {
               imgPath={blog}
               isBlog={false}
               title="Blog"
-              description="This is my personal space where I share my ideas, thoughts, and knowledge on various topics. What makes this blog special is that it was built with the powerful Next.js technology."
+              description="Este é meu espaço pessoal, onde compartilho minhas ideias, pensamentos e conhecimento sobre diversos tópicos. O que torna este blog especial é que ele foi criado com a poderosa tecnologia Next.js."
               ghLink="https://github.com/mwantony/blog"
               demoLink="https://antonymwblog.vercel.app"
             />
