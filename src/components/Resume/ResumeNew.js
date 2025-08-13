@@ -30,18 +30,19 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume d-flex justify-content-center align-items-center flex-column">
-  <Document file={pdf} className="d-flex flex-column align-items-center">
-    <Page 
-      pageNumber={1} 
-      scale={width > 786 ? 1.7 : 0.6} 
-      className="mb-5" // margem inferior para separar as páginas
-    />
-    <Page 
-      pageNumber={2} 
-      scale={width > 786 ? 1.7 : 0.6} 
-    />
-  </Document>
-</Row>
+          <Document
+            file="https://docs.google.com/document/d/1Ah5W49Ago4xYMoYqBy5rbqF3b62g_4Dzr2diXvb0A28/export?format=pdf"
+            className="d-flex flex-column align-items-center"
+          >
+            {/* margem inferior para separar as páginas */}
+            <Page
+              pageNumber={1}
+              scale={width > 786 ? 1.7 : 0.6}
+              className="mb-5"
+            />
+            <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} />
+          </Document>
+        </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
