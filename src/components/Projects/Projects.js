@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import blog from "../../Assets/Projects/blog.png";
-import vinki from "../../Assets/Projects/vinki.png";
+import tyra from "../../Assets/Projects/tyra.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
 
 function Projects() {
@@ -18,12 +18,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={vinki}
+              imgPath={tyra}
               isBlog={false}
-              title="Vinki"
-              description="Welcome to the official Vinki repository, a modern e-commerce developed with React and Node. With Vinki, we are transforming the online shopping experience by offering our customers a sleek interface and advanced features."
-              ghLink="https://github.com/mwantony/vinki"
-              demoLink="https://vinki.vercel.app"
+              title="Tyra"
+              description="Welcome to the official Tyra repository, a modern web system developed with React and PHP Laravel. With Tyra, we are transforming the restaurants way of delivering and serving their clients."
+              ghLink="https://github.com/mwantony/tyra-frontend"
+              demoLink="https://tyra.com.br"
             />
           </Col>
 
