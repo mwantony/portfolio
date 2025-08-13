@@ -17,7 +17,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I’m Antony Maziero Warken, a passionate developer focused on
-              React, Next.js, Node.js, and PostgreSQL. I’ve built portfolio,
+              ReactJS. I’ve built portfolio,
               live at{" "}
               <a href="https://antonymw.vercel.app" target="_blank" rel="noreferrer">
                 antonymw.vercel.app
