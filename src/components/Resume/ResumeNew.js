@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import pdf from "../../Assets/../Assets/antonymazierowarken.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -20,7 +19,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={'https://docs.google.com/document/d/1Ah5W49Ago4xYMoYqBy5rbqF3b62g_4Dzr2diXvb0A28/export?format=pdf'}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -47,7 +46,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={'https://docs.google.com/document/d/1Ah5W49Ago4xYMoYqBy5rbqF3b62g_4Dzr2diXvb0A28/export?format=pdf'}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
