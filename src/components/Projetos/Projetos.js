@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import blog from "../../Assets/Projects/blog.png";
-import tyra from "../../Assets/Projects/tyra.png";
-import portfolio from "../../Assets/Projects/portfolio.png";
+import blog from "../../assets/projects/blog.png";
+import tyra from "../../assets/projects/tyra.png";
+import portfolio from "../../assets/projects/portfolio.png";
 
-function Projects() {
+function Projetos() {
   return (
     <Container fluid className="project-section">
       <Container>
@@ -54,4 +54,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Projetos;

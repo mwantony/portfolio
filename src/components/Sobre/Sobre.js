@@ -6,7 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import Toolstack from "./Toolstack";
 
-function About() {
+function Sobre() {
   return (
     <Container fluid className="about-section">
       <Container>
@@ -59,4 +59,4 @@ function About() {
   );
 }
 
-export default About;
+export default Sobre;

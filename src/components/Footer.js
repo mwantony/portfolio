@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
-import { ReactComponent as Heart } from "../Assets/red-heart-svgrepo-com.svg";
 
 function Footer() {
   let date = new Date();

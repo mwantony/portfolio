@@ -1,10 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
-import Home2 from "./Home2";
+import Home2 from "./Inicio2";
 import Type from "./Type";
 
-function Home() {
+function Inicio() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -65,4 +64,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Inicio;
