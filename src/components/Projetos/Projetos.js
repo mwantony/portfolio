@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import blog from "../../Assets/projects/blog.png";
-import tyra from "../../Assets/projects/tyra.png";
-import portfolio from "../../Assets/projects/portfolio.png";
+import blog from "../../Assets/Projects/blog.png";
+import tyra from "../../Assets/Projects/tyra.png";
+import portfolio from "../../Assets/Projects/portfolio.png";
 
 function Projetos() {
   return (
