@@ -21,13 +21,6 @@ function Home2() {
               {t.home.bioP1}
               <br />
               <br />
-              {t.home.bioP2_1}
-              <a href="https://tyra.com.br" target="_blank" rel="noreferrer">
-                {t.home.bioP2_tyra}
-              </a>
-              {t.home.bioP2_2}
-              <br />
-              <br />
               {t.home.bioP3}
               <br />
               <br />

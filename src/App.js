@@ -17,6 +17,7 @@ import Resumo from "./components/Resumo/ResumeNew";
 import Sobre from "./components/Sobre/Sobre";
 import Projetos from "./components/Projetos/Projetos";
 import Inicio from "./components/Inicio/Inicio";
+import SpectrumBackground from "./components/SpectrumBackground";
 import { LanguageProvider } from "./context/LanguageContext";
 
 function App() {
@@ -64,6 +65,7 @@ function App() {
       <Router>
         <Preloader load={load} />
         <div className="App" id={load ? "no-scroll" : "scroll"}>
+          <SpectrumBackground />
           <Navbar />
           <ScrollToTop />
           <Routes>
