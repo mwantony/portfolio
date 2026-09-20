@@ -14,11 +14,12 @@ import {
 
 import { CgFileDocument } from "react-icons/cg";
 import { useLanguage } from "../context/LanguageContext";
+import LanguageSelector from "./LanguageSelector";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-  const { language, setLanguage, t } = useLanguage();
+  const { t } = useLanguage();
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -80,15 +81,7 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item className="lang-item">
-              <select
-                className="lang-select"
-                value={language}
-                onChange={(e) => setLanguage(e.target.value)}
-                aria-label="Language Selector"
-              >
-                <option value="pt">PT</option>
-                <option value="en">EN</option>
-              </select>
+              <LanguageSelector />
             </Nav.Item>
 
             <Nav.Item className="fork-btn">

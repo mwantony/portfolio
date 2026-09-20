@@ -221,33 +221,6 @@ button:focus {
   padding: 0 0.5rem;
 }
 
-.lang-select {
-  background-color: rgba(255, 255, 255, 0.08);
-  color: #ffffff;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 8px;
-  padding: 5px 12px;
-  font-size: 0.9em;
-  font-weight: 600;
-  cursor: pointer;
-  outline: none;
-  transition: all 0.2s ease-in-out;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.lang-select:hover,
-.lang-select:focus {
-  background-color: rgba(49, 149, 255, 0.15);
-  border-color: #3195FF;
-  box-shadow: 0 0 10px rgba(49, 149, 255, 0.3);
-}
-
-.lang-select option {
-  background-color: #0E1012;
-  color: #ffffff;
-}
-
 @media (max-width: 767px) {
   .lang-item {
     padding: 0.8rem 1rem;
