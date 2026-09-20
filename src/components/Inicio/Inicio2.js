@@ -15,15 +15,27 @@ function Home2() {
               QUEM <span className="purple"> SOU </span> EU?
             </h1>
             <p className="home-about-body">
-              Sou Antony Maziero Warken, um desenvolvedor apaixonado por
-              ReactJS. Criei um sistema de comandas para restaurantes em{" "}
+              Sou Antony Maziero Warken, desenvolvedor com experiência na
+              criação de aplicações web e sistemas voltados para negócios.
+              <br />
+              <br />
+              Tenho experiência com ReactJS, PHP, Laravel e desenvolvimento de
+              interfaces, além de ter criado soluções próprias, como o sistema
+              de gestão e comandas para restaurantes da{" "}
               <a href="https://tyra.com.br" target="_blank" rel="noreferrer">
-                tyra.com.br
+                Tyra
               </a>
-              . <br></br>
-              <br></br>Com inglês avançado e muita vontade de aprender, estou
-              ansioso para contribuir para projetos inovadores e crescer ao lado
-              de equipes talentosas. Vamos nos conectar!
+              .
+              <br />
+              <br />
+              Gosto de transformar ideias em produtos funcionais, aprender novas
+              tecnologias e enfrentar desafios que me façam evoluir. Atualmente,
+              busco novas oportunidades para aplicar minha experiência, ampliar
+              meus conhecimentos e colaborar com projetos que gerem impacto real.
+              <br />
+              <br />
+              Também possuo inglês avançado e facilidade para aprender novas
+              ferramentas e tecnologias.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
