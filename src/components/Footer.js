@@ -29,7 +29,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://wa.me/5549991042777"
+                href="https://wa.me/5549991206029"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
