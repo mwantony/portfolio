@@ -13,10 +13,12 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import { useLanguage } from "../context/LanguageContext";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+  const { language, setLanguage, t } = useLanguage();
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -53,7 +55,7 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Início
+                <AiOutlineHome style={{ marginBottom: "2px" }} /> {t.nav.home}
               </Nav.Link>
             </Nav.Item>
 
@@ -63,7 +65,7 @@ function NavBar() {
                 to="/sobre"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Sobre
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> {t.nav.about}
               </Nav.Link>
             </Nav.Item>
 
@@ -73,8 +75,20 @@ function NavBar() {
                 to="/resumo"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resumo
+                <CgFileDocument style={{ marginBottom: "2px" }} /> {t.nav.resume}
               </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item className="lang-item">
+              <select
+                className="lang-select"
+                value={language}
+                onChange={(e) => setLanguage(e.target.value)}
+                aria-label="Language Selector"
+              >
+                <option value="pt">PT</option>
+                <option value="en">EN</option>
+              </select>
             </Nav.Item>
 
             <Nav.Item className="fork-btn">

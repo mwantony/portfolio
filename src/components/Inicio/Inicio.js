@@ -2,8 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Home2 from "./Inicio2";
 import Type from "./Type";
+import { useLanguage } from "../../context/LanguageContext";
 
 function Inicio() {
+  const { t } = useLanguage();
+
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -11,7 +14,7 @@ function Inicio() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Olá!{" "}
+                {t.home.greeting}{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   <svg
                     width="30"
@@ -46,7 +49,7 @@ function Inicio() {
               </h1>
 
               <h1 className="heading-name">
-                Eu sou
+                {t.home.im}
                 <strong className="main-name"> ANTONY MAZIERO WARKEN</strong>
               </h1>
 

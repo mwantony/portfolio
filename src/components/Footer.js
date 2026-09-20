@@ -3,8 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
+import { useLanguage } from "../context/LanguageContext";
 
 function Footer() {
+  const { t } = useLanguage();
   let date = new Date();
   let year = date.getFullYear();
   return (
@@ -12,7 +14,7 @@ function Footer() {
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>
-            Desenvolvido por {" "}
+            {t.footer.developedBy}{" "}
             <a
               href="https://github.com/mwantony"
               target="_blank"
@@ -23,7 +25,7 @@ function Footer() {
           </h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year}</h3>
+          <h3>{t.footer.copyright} {year}</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">

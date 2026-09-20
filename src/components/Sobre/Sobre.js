@@ -5,8 +5,11 @@ import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import Toolstack from "./Toolstack";
+import { useLanguage } from "../../context/LanguageContext";
 
 function Sobre() {
+  const { t } = useLanguage();
+
   return (
     <Container fluid className="about-section">
       <Container>
@@ -26,7 +29,7 @@ function Sobre() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Quem <strong className="purple"> sou </strong>eu?
+              {t.about.title1} <strong className="purple"> {t.about.title2} </strong>{t.about.title3}
             </h1>
             <Aboutcard />
           </Col>
@@ -43,13 +46,13 @@ function Sobre() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Habilidades <strong className="purple">Profissionais</strong>
+          {t.about.skillsTitle1} <strong className="purple">{t.about.skillsTitle2}</strong>
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Ferramentas</strong> que uso
+          <strong className="purple">{t.about.toolsTitle1}</strong> {t.about.toolsTitle2}
         </h1>
         <Toolstack />
 

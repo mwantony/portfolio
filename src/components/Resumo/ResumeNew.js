@@ -4,10 +4,12 @@ import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import { useLanguage } from "../../context/LanguageContext";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function Resumo() {
   const [width, setWidth] = useState(1200);
+  const { t } = useLanguage();
 
   useEffect(() => {
     setWidth(window.innerWidth);
@@ -24,7 +26,7 @@ function Resumo() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Baixar
+            &nbsp;{t.resume.download}
           </Button>
         </Row>
 
@@ -51,7 +53,7 @@ function Resumo() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Baixar
+            &nbsp;{t.resume.download}
           </Button>
         </Row>
       </Container>

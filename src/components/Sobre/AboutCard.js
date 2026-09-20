@@ -1,27 +1,26 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import { useLanguage } from "../../context/LanguageContext";
 
 function AboutCard() {
+  const { t } = useLanguage();
+
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Olá, meu nome é{" "}
-            <span className="purple">Antony Maziero Warken</span> e sou de{" "}
-            <span className="purple">Santa Catarina, Brasil</span>.
+            {t.about.bio1}{" "}
+            <span className="purple">{t.about.bioName}</span> {t.about.bioFrom}{" "}
+            <span className="purple">{t.about.bioLocation}</span>.
             <br />
-            Trabalhei como desenvolvedor em algumas empresas, sempre buscando
-            aprender mais e aprimorar minhas habilidades.
-            <br />
-            <br />
-            Tenho inglês fluente, o que me permite trabalhar em projetos
-            internacionais.
+            {t.about.bioP2}
             <br />
             <br />
-            Sou apaixonado por criar soluções inovadoras e busco constantemente
-            novas oportunidades de crescimento profissional. Vamos nos conectar
-            e explorar como podemos colaborar!
+            {t.about.bioP3}
+            <br />
+            <br />
+            {t.about.bioP4}
           </p>
         </blockquote>
       </Card.Body>

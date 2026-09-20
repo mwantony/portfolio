@@ -4,38 +4,34 @@ import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaLinkedinIn } from "react-icons/fa";
+import { useLanguage } from "../../context/LanguageContext";
 
 function Home2() {
+  const { t } = useLanguage();
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              QUEM <span className="purple"> SOU </span> EU?
+              {t.home.whoTitle1} <span className="purple"> {t.home.whoTitle2} </span> {t.home.whoTitle3}
             </h1>
             <p className="home-about-body">
-              Sou Antony Maziero Warken, desenvolvedor com experiência na
-              criação de aplicações web e sistemas voltados para negócios.
+              {t.home.bioP1}
               <br />
               <br />
-              Tenho experiência com ReactJS, PHP, Laravel e desenvolvimento de
-              interfaces, além de ter criado soluções próprias, como o sistema
-              de gestão e comandas para restaurantes da{" "}
+              {t.home.bioP2_1}
               <a href="https://tyra.com.br" target="_blank" rel="noreferrer">
-                Tyra
+                {t.home.bioP2_tyra}
               </a>
-              .
+              {t.home.bioP2_2}
               <br />
               <br />
-              Gosto de transformar ideias em produtos funcionais, aprender novas
-              tecnologias e enfrentar desafios que me façam evoluir. Atualmente,
-              busco novas oportunidades para aplicar minha experiência, ampliar
-              meus conhecimentos e colaborar com projetos que gerem impacto real.
+              {t.home.bioP3}
               <br />
               <br />
-              Também possuo inglês avançado e facilidade para aprender novas
-              ferramentas e tecnologias.
+              {t.home.bioP4}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -50,11 +46,11 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FALE COMIGO</h1>
+            <h1>{t.home.connectTitle}</h1>
             <p>
-              Sinta-se à vontade para
-              <span className="purple"> se conectar </span>
-              comigo
+              {t.home.connectSubtitle1}
+              <span className="purple">{t.home.connectSubtitleHighlight}</span>
+              {t.home.connectSubtitle2}
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
