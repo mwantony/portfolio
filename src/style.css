@@ -109,15 +109,21 @@ button:focus {
   padding: 8px !important;
   width: 44px !important;
   height: 40px !important;
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;
-  align-items: center !important;
-  gap: 5px !important;
   backdrop-filter: blur(12px) !important;
   -webkit-backdrop-filter: blur(12px) !important;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35), 0 0 10px rgba(56, 189, 248, 0.12) !important;
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+/* Only apply flex layout when the toggler is actually visible (mobile) */
+@media (max-width: 767px) {
+  .navbar-toggler {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 5px !important;
+  }
 }
 
 .navbar-toggler:focus,
