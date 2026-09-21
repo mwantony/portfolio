@@ -14,12 +14,14 @@ import {
 
 import { CgFileDocument } from "react-icons/cg";
 import { useLanguage } from "../context/LanguageContext";
+import { useTheme } from "../context/ThemeContext";
 import LanguageSelector from "./LanguageSelector";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
   const { t } = useLanguage();
+  const { theme, toggleTheme } = useTheme();
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -82,6 +84,20 @@ function NavBar() {
 
             <Nav.Item className="lang-item">
               <LanguageSelector />
+            </Nav.Item>
+
+            {/* Theme Toggle Button */}
+            <Nav.Item className="theme-toggle-item">
+              <button
+                className="theme-toggle-btn"
+                onClick={toggleTheme}
+                aria-label={theme === "dark" ? "Switch to light theme" : "Switch to dark theme"}
+                title={theme === "dark" ? "Tema claro" : "Tema escuro"}
+              >
+                <span className="theme-toggle-icon">
+                  {theme === "dark" ? "☀️" : "🌙"}
+                </span>
+              </button>
             </Nav.Item>
 
             <Nav.Item className="fork-btn">

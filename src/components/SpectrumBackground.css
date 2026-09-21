@@ -1,5 +1,5 @@
 /* ========================================================= */
-/*  BLUISH SPECTRUM EFFECTS & AMBIENT AURA  (subtle)         */
+/*  SPECTRUM BACKGROUND — Dark & Light Theme Support         */
 /* ========================================================= */
 
 .spectrum-wrapper {
@@ -11,19 +11,21 @@
   pointer-events: none;
   z-index: 0;
   overflow: hidden;
-  background-color: #090c13;
+  background-color: var(--bg-base);
+  transition: background-color 0.4s ease;
 }
 
 /* Base subtle cyber grid pattern for depth */
 .spectrum-grid-overlay {
   position: absolute;
   inset: 0;
-  background-image: 
-    radial-gradient(rgba(56, 189, 248, 0.035) 1px, transparent 1px);
+  background-image:
+    radial-gradient(var(--grid-dot-color) 1px, transparent 1px);
   background-size: 40px 40px;
   mask-image: radial-gradient(ellipse 70% 60% at 50% 45%, #000 30%, transparent 90%);
   -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 45%, #000 30%, transparent 90%);
   opacity: 0.6;
+  transition: opacity 0.4s ease;
 }
 
 /* Mouse interactive subtle spotlight */
@@ -44,8 +46,8 @@
   will-change: transform, opacity;
 }
 
-/* Orb 1: Top-Left */
-.spectrum-orb.orb-1 {
+/* ======================== DARK THEME ORBS ======================== */
+html[data-theme="dark"] .spectrum-orb.orb-1 {
   width: 560px;
   height: 560px;
   top: -150px;
@@ -59,8 +61,7 @@
   animation: spectrumFloat1 22s ease-in-out infinite alternate;
 }
 
-/* Orb 2: Top-Right */
-.spectrum-orb.orb-2 {
+html[data-theme="dark"] .spectrum-orb.orb-2 {
   width: 580px;
   height: 580px;
   top: 10%;
@@ -74,8 +75,7 @@
   animation: spectrumFloat2 26s ease-in-out infinite alternate;
 }
 
-/* Orb 3: Bottom-Left */
-.spectrum-orb.orb-3 {
+html[data-theme="dark"] .spectrum-orb.orb-3 {
   width: 640px;
   height: 640px;
   bottom: -180px;
@@ -89,8 +89,7 @@
   animation: spectrumFloat3 30s ease-in-out infinite alternate;
 }
 
-/* Orb 4: Bottom-Right accent */
-.spectrum-orb.orb-4 {
+html[data-theme="dark"] .spectrum-orb.orb-4 {
   width: 420px;
   height: 420px;
   top: 55%;
@@ -104,8 +103,7 @@
   animation: spectrumFloat4 24s ease-in-out infinite alternate;
 }
 
-/* Orb 5: Center subtle glow */
-.spectrum-orb.orb-5 {
+html[data-theme="dark"] .spectrum-orb.orb-5 {
   width: 380px;
   height: 380px;
   top: 30%;
@@ -119,7 +117,78 @@
   animation: spectrumFloat5 28s ease-in-out infinite alternate;
 }
 
-/* Ambient Horizontal Light Beam — very subtle */
+/* ======================== LIGHT THEME ORBS ======================== */
+html[data-theme="light"] .spectrum-orb.orb-1 {
+  width: 600px;
+  height: 600px;
+  top: -180px;
+  left: -120px;
+  background: radial-gradient(
+    circle,
+    rgba(147, 197, 253, 0.35) 0%,
+    rgba(191, 219, 254, 0.2) 45%,
+    transparent 75%
+  );
+  animation: spectrumFloat1 22s ease-in-out infinite alternate;
+}
+
+html[data-theme="light"] .spectrum-orb.orb-2 {
+  width: 620px;
+  height: 620px;
+  top: 5%;
+  right: -160px;
+  background: radial-gradient(
+    circle,
+    rgba(96, 165, 250, 0.3) 0%,
+    rgba(147, 197, 253, 0.15) 50%,
+    transparent 80%
+  );
+  animation: spectrumFloat2 26s ease-in-out infinite alternate;
+}
+
+html[data-theme="light"] .spectrum-orb.orb-3 {
+  width: 680px;
+  height: 680px;
+  bottom: -200px;
+  left: 5%;
+  background: radial-gradient(
+    circle,
+    rgba(186, 230, 253, 0.4) 0%,
+    rgba(147, 197, 253, 0.2) 50%,
+    transparent 80%
+  );
+  animation: spectrumFloat3 30s ease-in-out infinite alternate;
+}
+
+html[data-theme="light"] .spectrum-orb.orb-4 {
+  width: 450px;
+  height: 450px;
+  top: 55%;
+  right: 10%;
+  background: radial-gradient(
+    circle,
+    rgba(125, 211, 252, 0.25) 0%,
+    rgba(186, 230, 253, 0.12) 55%,
+    transparent 80%
+  );
+  animation: spectrumFloat4 24s ease-in-out infinite alternate;
+}
+
+html[data-theme="light"] .spectrum-orb.orb-5 {
+  width: 400px;
+  height: 400px;
+  top: 30%;
+  left: 38%;
+  background: radial-gradient(
+    circle,
+    rgba(191, 219, 254, 0.3) 0%,
+    rgba(224, 242, 254, 0.15) 60%,
+    transparent 80%
+  );
+  animation: spectrumFloat5 28s ease-in-out infinite alternate;
+}
+
+/* ======================== BEAM ======================== */
 .spectrum-beam {
   position: absolute;
   top: 0;
@@ -130,15 +199,15 @@
   background: linear-gradient(
     90deg,
     transparent 0%,
-    rgba(56, 189, 248, 0.12) 25%,
-    rgba(0, 210, 255, 0.28) 50%,
-    rgba(56, 189, 248, 0.12) 75%,
+    var(--beam-color-mid) 25%,
+    var(--beam-color-center) 50%,
+    var(--beam-color-mid) 75%,
     transparent 100%
   );
-  box-shadow: 0 0 8px rgba(56, 189, 248, 0.2);
+  box-shadow: 0 0 8px var(--beam-glow);
 }
 
-/* Keyframes */
+/* ======================== KEYFRAMES ======================== */
 @keyframes spectrumFloat1 {
   0%   { transform: translate(0, 0) scale(1); }
   50%  { transform: translate(45px, 30px) scale(1.06); }
@@ -169,24 +238,30 @@
   100% { transform: scale(0.9);  opacity: 0.6; }
 }
 
+/* ======================== RESPONSIVE ======================== */
 @media (max-width: 768px) {
-  .spectrum-orb.orb-1 {
+  html[data-theme="dark"] .spectrum-orb.orb-1,
+  html[data-theme="light"] .spectrum-orb.orb-1 {
     width: 300px;
     height: 300px;
     filter: blur(90px);
   }
-  .spectrum-orb.orb-2 {
+  html[data-theme="dark"] .spectrum-orb.orb-2,
+  html[data-theme="light"] .spectrum-orb.orb-2 {
     width: 320px;
     height: 320px;
     filter: blur(90px);
   }
-  .spectrum-orb.orb-3 {
+  html[data-theme="dark"] .spectrum-orb.orb-3,
+  html[data-theme="light"] .spectrum-orb.orb-3 {
     width: 340px;
     height: 340px;
     filter: blur(90px);
   }
-  .spectrum-orb.orb-4,
-  .spectrum-orb.orb-5 {
+  html[data-theme="dark"] .spectrum-orb.orb-4,
+  html[data-theme="dark"] .spectrum-orb.orb-5,
+  html[data-theme="light"] .spectrum-orb.orb-4,
+  html[data-theme="light"] .spectrum-orb.orb-5 {
     display: none;
   }
 }

@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
+import { useTheme } from "../context/ThemeContext";
 import "./SpectrumBackground.css";
 
 function SpectrumBackground() {
   const [mousePos, setMousePos] = useState({ x: 50, y: 25 });
+  const { theme } = useTheme();
 
   useEffect(() => {
     let animationFrameId;
@@ -22,13 +24,16 @@ function SpectrumBackground() {
     };
   }, []);
 
+  const spotlightGradient =
+    theme === "dark"
+      ? `radial-gradient(600px circle at ${mousePos.x}% ${mousePos.y}%, rgba(0, 210, 255, 0.04), rgba(37, 99, 235, 0.025), transparent 65%)`
+      : `radial-gradient(600px circle at ${mousePos.x}% ${mousePos.y}%, rgba(37, 99, 235, 0.06), rgba(96, 165, 250, 0.04), transparent 65%)`;
+
   return (
     <div className="spectrum-wrapper" aria-hidden="true">
       <div
         className="spectrum-mouse-spotlight"
-        style={{
-          background: `radial-gradient(600px circle at ${mousePos.x}% ${mousePos.y}%, rgba(0, 210, 255, 0.04), rgba(37, 99, 235, 0.025), transparent 65%)`,
-        }}
+        style={{ background: spotlightGradient }}
       />
       <div className="spectrum-orb orb-1" />
       <div className="spectrum-orb orb-2" />

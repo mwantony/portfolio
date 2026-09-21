@@ -19,6 +19,7 @@ import Projetos from "./components/Projetos/Projetos";
 import Inicio from "./components/Inicio/Inicio";
 import SpectrumBackground from "./components/SpectrumBackground";
 import { LanguageProvider } from "./context/LanguageContext";
+import { ThemeProvider } from "./context/ThemeContext";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -61,24 +62,26 @@ function App() {
   }, []);
 
   return (
-    <LanguageProvider>
-      <Router>
-        <Preloader load={load} />
-        <div className="App" id={load ? "no-scroll" : "scroll"}>
-          <SpectrumBackground />
-          <Navbar />
-          <ScrollToTop />
-          <Routes>
-            <Route path="/" element={<Inicio />} />
-            <Route path="/projetos" element={<Projetos />} />
-            <Route path="/sobre" element={<Sobre />} />
-            <Route path="/resumo" element={<Resumo />} />
-            <Route path="*" element={<Navigate to="/" />} />
-          </Routes>
-          <Footer />
-        </div>
-      </Router>
-    </LanguageProvider>
+    <ThemeProvider>
+      <LanguageProvider>
+        <Router>
+          <Preloader load={load} />
+          <div className="App" id={load ? "no-scroll" : "scroll"}>
+            <SpectrumBackground />
+            <Navbar />
+            <ScrollToTop />
+            <Routes>
+              <Route path="/" element={<Inicio />} />
+              <Route path="/projetos" element={<Projetos />} />
+              <Route path="/sobre" element={<Sobre />} />
+              <Route path="/resumo" element={<Resumo />} />
+              <Route path="*" element={<Navigate to="/" />} />
+            </Routes>
+            <Footer />
+          </div>
+        </Router>
+      </LanguageProvider>
+    </ThemeProvider>
   );
 }
 
