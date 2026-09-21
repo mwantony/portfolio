@@ -27,7 +27,7 @@ function SpectrumBackground() {
       <div
         className="spectrum-mouse-spotlight"
         style={{
-          background: `radial-gradient(700px circle at ${mousePos.x}% ${mousePos.y}%, rgba(0, 210, 255, 0.09), rgba(37, 99, 235, 0.05), transparent 70%)`,
+          background: `radial-gradient(600px circle at ${mousePos.x}% ${mousePos.y}%, rgba(0, 210, 255, 0.04), rgba(37, 99, 235, 0.025), transparent 65%)`,
         }}
       />
       <div className="spectrum-orb orb-1" />
