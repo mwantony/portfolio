@@ -1,7 +1,7 @@
+import { useEffect, useRef } from 'react'; // Added useRef here
 import { ExternalLink, Star } from 'lucide-react';
 import { GitHubIcon } from './BrandIcons';
 import { useLanguage } from '../context/LanguageContext';
-
 function RevealOnScroll({ children, delay = 0, style = {} }) {
   const ref = useRef(null);
   useEffect(() => {

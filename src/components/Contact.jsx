@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { Mail, Linkedin, Github, MessageCircle, ArrowUpRight } from 'lucide-react';
+import { Mail, Link, FolderGit2, MessageCircle, ArrowUpRight } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 const WHATSAPP_NUMBER = '55XXXXXXXXXXX'; // Replace with actual number
@@ -105,14 +105,14 @@ export default function Contact() {
       delay: 100,
     },
     {
-      icon: <Linkedin size={22} />,
+      icon: <Link size={22} />,
       label: t('contact.linkedin_label'),
       value: 'antonymazierowarken',
       href: 'https://linkedin.com/in/antonymazierowarken',
       delay: 180,
     },
     {
-      icon: <Github size={22} />,
+      icon: <FolderGit2 size={22} />,
       label: t('contact.github_label'),
       value: 'github.com/mwantony',
       href: 'https://github.com/mwantony',

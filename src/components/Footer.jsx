@@ -1,4 +1,4 @@
-import { Heart, Coffee, Github, Linkedin, Mail } from 'lucide-react';
+import { Heart, Coffee, FolderGit2, Link, Mail } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 export default function Footer() {
@@ -54,8 +54,8 @@ export default function Footer() {
           {/* Social links */}
           <div style={{ display: 'flex', gap: '8px' }}>
             {[
-              { icon: <Github size={18} />, href: 'https://github.com/mwantony', label: 'GitHub' },
-              { icon: <Linkedin size={18} />, href: 'https://linkedin.com/in/antonymazierowarken', label: 'LinkedIn' },
+              { icon: <FolderGit2 size={18} />, href: 'https://github.com/mwantony', label: 'GitHub' },
+              { icon: <Link size={18} />, href: 'https://linkedin.com/in/antonymazierowarken', label: 'LinkedIn' },
               { icon: <Mail size={18} />, href: 'mailto:againplayi7@gmail.com', label: 'Email' },
             ].map(({ icon, href, label }) => (
               <a
