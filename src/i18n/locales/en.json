@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "toggleTheme": "Toggle Theme",
+    "toggleLang": "Change Language",
+    "available": "Available for projects"
+  },
+  "hero": {
+    "badge": "Available for new projects & consulting",
+    "greeting": "Hello, my name is",
+    "name": "Antony",
+    "role": "Software Developer",
+    "tagline": "Building modern digital experiences, resilient systems, and scalable web architectures.",
+    "bio": "Software developer focused on high-performance ecosystems with React, Node.js, and Laravel. Merging minimalist aesthetics, solid engineering, and obsessive attention to detail.",
+    "ctaProjects": "Explore Projects",
+    "ctaContact": "Get in Touch",
+    "ctaResume": "Resume",
+    "statExperience": "Years of Experience",
+    "statProjects": "Projects Completed",
+    "statSatisfaction": "Client Satisfaction"
+  },
+  "about": {
+    "sectionTag": "Journey & Philosophy",
+    "title": "About Me",
+    "subtitle": "Combining engineering rigor with modernist visual sensibility.",
+    "p1": "With a strong background in fullstack web development, I architect and deliver complete applications — from fluid, reactive frontend interfaces to high-throughput microservices, RESTful APIs, and relational database systems.",
+    "p2": "My technical specialization moves naturally between modern React with TypeScript and resilient backends built with Node.js and Laravel (PHP). I champion Clean Architecture, Domain-Driven Design (DDD), automated testing, and continuous CI/CD delivery.",
+    "p3": "I believe true modern design thrives in clarity: clean interfaces, purposeful typography, and uncompromised code maintainability.",
+    "metrics": {
+      "experience": {
+        "value": "5+",
+        "label": "Years of Practical Experience"
+      },
+      "projects": {
+        "value": "35+",
+        "label": "Production Projects"
+      },
+      "codeQuality": {
+        "value": "100%",
+        "label": "Clean Code & Testing Focus"
+      },
+      "uptime": {
+        "value": "99.9%",
+        "label": "Uptime & System Resilience"
+      }
+    },
+    "timelineTitle": "Professional Evolution",
+    "pillarsTitle": "Core Engineering Principles",
+    "pillar1": {
+      "title": "Scalable Architecture",
+      "desc": "Systems engineered for sustainable growth, low coupling, and high cohesion."
+    },
+    "pillar2": {
+      "title": "Fluid User Experience",
+      "desc": "Thoughtful micro-interactions, native accessibility (A11y), and sub-second load times."
+    },
+    "pillar3": {
+      "title": "Versatile Fullstack",
+      "desc": "End-to-end technical mastery, bridging elegant interfaces with rock-solid infrastructure."
+    }
+  },
+  "skills": {
+    "sectionTag": "Technical Expertise",
+    "title": "Skills & Stack",
+    "subtitle": "Technologies and tools I leverage daily to bring innovative digital products to life.",
+    "tabs": {
+      "all": "All",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "devops": "DevOps & Tools",
+      "architecture": "Architecture"
+    },
+    "yearsSuffix": "years",
+    "level": {
+      "Senior": "Advanced / Specialist",
+      "Advanced": "Advanced",
+      "Intermediate": "Intermediate"
+    }
+  },
+  "projects": {
+    "sectionTag": "Selected Works",
+    "title": "Featured Projects",
+    "subtitle": "A curated showcase of applications built with high performance, user experience, and scalability in mind.",
+    "filter": {
+      "all": "All",
+      "fullstack": "Full Stack",
+      "frontend": "Frontend",
+      "backend": "Backend"
+    },
+    "liveDemo": "Live Demo",
+    "viewCode": "Source Code",
+    "featuredBadge": "Featured",
+    "viewDetails": "View Details",
+    "highlightsTitle": "Key Highlights",
+    "closeModal": "Close"
+  },
+  "contact": {
+    "sectionTag": "Let's Connect",
+    "title": "Start a Project",
+    "subtitle": "Have an idea, an open role, or a complex challenge? Let's turn it into reality.",
+    "form": {
+      "nameLabel": "Your Full Name",
+      "namePlaceholder": "e.g. John Doe",
+      "emailLabel": "Your Email",
+      "emailPlaceholder": "e.g. john@company.com",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "e.g. Fullstack Project Proposal",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell me about your project, timeline, and goals...",
+      "submitButton": "Send Message",
+      "sending": "Sending...",
+      "successTitle": "Message Sent Successfully!",
+      "successDesc": "Thank you for reaching out. I'll get back to you shortly!",
+      "errorTitle": "Oops! Something went wrong",
+      "errorDesc": "Please try again or reach out directly via email.",
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email address"
+    },
+    "direct": {
+      "title": "Direct Channels",
+      "email": "Email",
+      "emailCopied": "Email copied to clipboard!",
+      "copyEmail": "Copy Email",
+      "location": "Location",
+      "locationVal": "Brazil (Available for Global Remote Work)",
+      "availability": "Availability",
+      "availabilityVal": "Targeted projects, contracts, and senior roles",
+      "socials": "Professional Networks"
+    }
+  },
+  "footer": {
+    "tagline": "Software Developer dedicated to crafting exceptional digital products.",
+    "quickLinks": "Quick Links",
+    "activeSettings": "Active Settings",
+    "themeLabel": "Theme:",
+    "langLabel": "Language:",
+    "rights": "All rights reserved.",
+    "builtWith": "Engineered with React, TypeScript, Tailwind CSS, and Framer Motion.",
+    "backToTop": "Back to top"
+  }
+}

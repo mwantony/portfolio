@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "skills": "Habilidades",
+    "projects": "Projetos",
+    "contact": "Contato",
+    "toggleTheme": "Alternar Tema",
+    "toggleLang": "Mudar Idioma",
+    "available": "Disponível para projetos"
+  },
+  "hero": {
+    "badge": "Disponível para novos projetos & consultoria",
+    "greeting": "Olá, meu nome é",
+    "name": "Antony",
+    "role": "Software Developer",
+    "tagline": "Construindo experiências digitais modernas, sistemas resilientes e arquiteturas web escaláveis.",
+    "bio": "Desenvolvedor focado em ecossistemas de alta performance com React, Node.js e Laravel. Unindo design minimalista, engenharia sólida e atenção obsessiva aos detalhes.",
+    "ctaProjects": "Explorar Projetos",
+    "ctaContact": "Entrar em Contato",
+    "ctaResume": "Currículo",
+    "statExperience": "Anos de Experiência",
+    "statProjects": "Projetos Concluídos",
+    "statSatisfaction": "Satisfação dos Clientes"
+  },
+  "about": {
+    "sectionTag": "Trajetória & Filosofia",
+    "title": "Sobre Mim",
+    "subtitle": "Combinando rigor de engenharia e sensibilidade visual modernista.",
+    "p1": "Com uma sólida bagagem no desenvolvimento web fullstack, atuo na concepção e entrega de aplicações completas — desde interfaces reativas e fluidas no frontend até arquiteturas de microsserviços, APIs RESTful e bancos de dados relacionais de alta volumetria no backend.",
+    "p2": "Minha especialização técnica transita com naturalidade entre o ecossistema moderno do React com TypeScript e o poder de backends robustos construídos com Node.js e Laravel (PHP). Tenho apreço por Clean Architecture, Domain-Driven Design (DDD), testes automatizados e pipelines de CI/CD contínuos.",
+    "p3": "Acredito que o verdadeiro design moderno reside na clareza: interfaces limpas, tipografia com propósito e arquitetura sem concessões de manutenibilidade.",
+    "metrics": {
+      "experience": {
+        "value": "5+",
+        "label": "Anos de Experiência Prática"
+      },
+      "projects": {
+        "value": "35+",
+        "label": "Projetos em Produção"
+      },
+      "codeQuality": {
+        "value": "100%",
+        "label": "Foco em Testes & Clean Code"
+      },
+      "uptime": {
+        "value": "99.9%",
+        "label": "Confiabilidade & Resiliência"
+      }
+    },
+    "timelineTitle": "Evolução Profissional",
+    "pillarsTitle": "Princípios de Desenvolvimento",
+    "pillar1": {
+      "title": "Arquitetura Escalável",
+      "desc": "Sistemas desenhados para crescer de maneira sustentável, com baixo acoplamento e alta coesão."
+    },
+    "pillar2": {
+      "title": "Experiência de Usuário Fluida",
+      "desc": "Micro-interações elegantes, acessibilidade (A11y) nativa e carregamento ultra-rápido."
+    },
+    "pillar3": {
+      "title": "Fullstack Versátil",
+      "desc": "Domínio técnico de ponta a ponta, conectando interfaces ricas a infraestruturas robustas."
+    }
+  },
+  "skills": {
+    "sectionTag": "Expertise Técnica",
+    "title": "Habilidades & Stack",
+    "subtitle": "Tecnologias e ferramentas que utilizo no dia a dia para dar vida a produtos digitais.",
+    "tabs": {
+      "all": "Todas",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "devops": "DevOps & Ferramentas",
+      "architecture": "Arquitetura"
+    },
+    "yearsSuffix": "anos",
+    "level": {
+      "Senior": "Avançado / Especialista",
+      "Advanced": "Avançado",
+      "Intermediate": "Intermediário"
+    }
+  },
+  "projects": {
+    "sectionTag": "Trabalhos Selecionados",
+    "title": "Projetos em Destaque",
+    "subtitle": "Uma amostra de projetos arquitetados com foco em performance, experiência do usuário e escalabilidade.",
+    "filter": {
+      "all": "Todos",
+      "fullstack": "Full Stack",
+      "frontend": "Frontend",
+      "backend": "Backend"
+    },
+    "liveDemo": "Ver Demonstração",
+    "viewCode": "Código Fonte",
+    "featuredBadge": "Em Destaque",
+    "viewDetails": "Ver Detalhes",
+    "highlightsTitle": "Principais Destaques",
+    "closeModal": "Fechar"
+  },
+  "contact": {
+    "sectionTag": "Vamos Conversar",
+    "title": "Iniciar um Projeto",
+    "subtitle": "Tem uma ideia, uma vaga ou um projeto desafiador? Vamos transformar isso em realidade.",
+    "form": {
+      "nameLabel": "Seu Nome Completo",
+      "namePlaceholder": "Ex: Carlos Silva",
+      "emailLabel": "Seu E-mail",
+      "emailPlaceholder": "Ex: carlos@empresa.com",
+      "subjectLabel": "Assunto",
+      "subjectPlaceholder": "Ex: Proposta de Projeto Fullstack",
+      "messageLabel": "Mensagem",
+      "messagePlaceholder": "Conte-me sobre o seu projeto, prazos e necessidades...",
+      "submitButton": "Enviar Mensagem",
+      "sending": "Enviando...",
+      "successTitle": "Mensagem Enviada com Sucesso!",
+      "successDesc": "Obrigado pelo contato. Retornarei em breve!",
+      "errorTitle": "Ops! Algo deu errado",
+      "errorDesc": "Por favor, tente novamente ou entre em contato direto pelo e-mail.",
+      "required": "Campo obrigatório",
+      "invalidEmail": "Por favor, insira um e-mail válido"
+    },
+    "direct": {
+      "title": "Contatos Diretos",
+      "email": "E-mail",
+      "emailCopied": "E-mail copiado para a área de transferência!",
+      "copyEmail": "Copiar E-mail",
+      "location": "Localização",
+      "locationVal": "Brasil (Disponível para Trabalho Remoto Global)",
+      "availability": "Disponibilidade",
+      "availabilityVal": "Projetos pontuais, contratos e vagas sênior",
+      "socials": "Redes Profissionais"
+    }
+  },
+  "footer": {
+    "tagline": "Desenvolvedor de Software dedicado à criação de produtos digitais excepcionais.",
+    "quickLinks": "Navegação Rápida",
+    "activeSettings": "Configurações Ativas",
+    "themeLabel": "Tema:",
+    "langLabel": "Idioma:",
+    "rights": "Todos os direitos reservados.",
+    "builtWith": "Construído com React, TypeScript, Tailwind CSS e Framer Motion.",
+    "backToTop": "Voltar ao topo"
+  }
+}
