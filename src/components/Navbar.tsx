@@ -68,13 +68,12 @@ export const Navbar: React.FC = () => {
             onClick={(e) => handleNavClick(e, '#hero')}
             className="flex items-center gap-2 group font-mono text-sm tracking-tight font-semibold"
           >
-            <div className="w-8 h-8 rounded-lg bg-accent-500/10 dark:bg-accent-500/20 text-accent-600 dark:text-accent-400 border border-accent-500/20 flex items-center justify-center transition-transform group-hover:scale-105">
-              <Terminal className="w-4 h-4" />
+            <div className="w-7 h-7 rounded-lg bg-accent-500/10 dark:bg-accent-500/20 text-accent-600 dark:text-accent-400 border border-accent-500/20 flex items-center justify-center transition-transform group-hover:scale-105">
+              <Terminal className="w-3.5 h-3.5" />
             </div>
             <div className="flex items-center">
               <span className="text-txt-light-primary dark:text-txt-dark-primary font-bold">antony</span>
               <span className="text-accent-500 font-bold">.dev</span>
-              <span className="inline-block w-1.5 h-1.5 rounded-full bg-emerald-500 ml-1 animate-pulse" title={t('nav.available')} />
             </div>
           </a>
 

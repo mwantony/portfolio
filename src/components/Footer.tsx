@@ -20,13 +20,19 @@ export const Footer: React.FC = () => {
           
           {/* Brand & Mission (6 cols) */}
           <div className="md:col-span-6 space-y-3">
-            <div className="flex items-center gap-2 font-mono text-sm font-semibold">
-              <div className="w-6 h-6 rounded-md bg-accent-500/10 text-accent-600 dark:text-accent-400 flex items-center justify-center">
+            <a
+              href="#hero"
+              onClick={scrollToTop}
+              className="inline-flex items-center gap-2 group font-mono text-sm tracking-tight font-semibold"
+            >
+              <div className="w-7 h-7 rounded-lg bg-accent-500/10 dark:bg-accent-500/20 text-accent-600 dark:text-accent-400 border border-accent-500/20 flex items-center justify-center transition-transform group-hover:scale-105">
                 <Terminal className="w-3.5 h-3.5" />
               </div>
-              <span className="text-txt-light-primary dark:text-txt-dark-primary font-bold">antony</span>
-              <span className="text-accent-500 font-bold">.dev</span>
-            </div>
+              <div className="flex items-center">
+                <span className="text-txt-light-primary dark:text-txt-dark-primary font-bold">antony</span>
+                <span className="text-accent-500 font-bold">.dev</span>
+              </div>
+            </a>
             <p className="text-xs text-txt-light-secondary dark:text-txt-dark-secondary max-w-sm leading-relaxed">
               {t('footer.tagline')}
             </p>
