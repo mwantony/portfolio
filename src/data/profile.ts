@@ -3,7 +3,7 @@ export const profileData = {
   role: 'Software Developer',
   email: 'againplayi7@gmail.com',
   github: 'https://github.com/mwantony',
-  linkedin: 'https://linkedin.com/in/antony-developer',
+  linkedin: 'https://www.linkedin.com/in/antonymazierowarken/',
   whatsapp: 'https://wa.me/5500000000000',
   location: {
     pt: 'Brasil • Disponível para Remoto Global',
