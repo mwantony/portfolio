@@ -24,7 +24,7 @@ export const ThemeToggle: React.FC = () => {
             animate={{ rotate: 0, opacity: 1, scale: 1 }}
             exit={{ rotate: 90, opacity: 0, scale: 0.8 }}
             transition={{ duration: 0.2 }}
-            className="flex items-center justify-center text-amber-400"
+            className="flex items-center justify-center text-white"
           >
             <Moon className="w-4 h-4" />
           </motion.div>
@@ -35,7 +35,7 @@ export const ThemeToggle: React.FC = () => {
             animate={{ rotate: 0, opacity: 1, scale: 1 }}
             exit={{ rotate: -90, opacity: 0, scale: 0.8 }}
             transition={{ duration: 0.2 }}
-            className="flex items-center justify-center text-amber-500"
+            className="flex items-center justify-center text-zinc-950"
           >
             <Sun className="w-4 h-4" />
           </motion.div>
