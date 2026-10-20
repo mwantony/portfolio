@@ -15,7 +15,7 @@
     "name": "Antony",
     "role": "Software Developer",
     "tagline": "Building modern digital experiences, resilient systems, and scalable web architectures.",
-    "bio": "Software developer focused on high-performance ecosystems with React, Node.js, and Laravel. Merging minimalist aesthetics, solid engineering, and obsessive attention to detail.",
+    "bio": "Software developer focused on modern, scalable ecosystems with React, TypeScript, Supabase, and Vercel. Merging minimalist aesthetics, intuitive Figma designs, and solid engineering.",
     "ctaProjects": "Explore Projects",
     "ctaContact": "Get in Touch",
     "ctaResume": "Resume",
@@ -26,9 +26,9 @@
   "about": {
     "sectionTag": "Journey & Philosophy",
     "title": "About Me",
-    "subtitle": "Combining engineering rigor with modernist visual sensibility.",
-    "p1": "With a strong background in fullstack web development, I architect and deliver complete applications — from fluid, reactive frontend interfaces to high-throughput microservices, RESTful APIs, and relational database systems.",
-    "p2": "My technical specialization moves naturally between modern React with TypeScript and resilient backends built with Node.js and Laravel (PHP). I champion Clean Architecture, Domain-Driven Design (DDD), automated testing, and continuous CI/CD delivery.",
+    "subtitle": "Combining engineering rigor, Figma UI/UX, and modernist aesthetics.",
+    "p1": "With a strong background in web application engineering, I architect and deliver complete applications — from fluid, reactive frontend interfaces to scalable cloud backends powered by Supabase, PostgreSQL, and continuous deployment on Vercel.",
+    "p2": "My technical specialization moves naturally between modern React with TypeScript, Angular, and the cloud power of Supabase (Authentication, Relational Databases, and Edge Functions). I champion Clean Architecture, intuitive UI/UX with Figma, and automated testing.",
     "p3": "I believe true modern design thrives in clarity: clean interfaces, purposeful typography, and uncompromised code maintainability.",
     "metrics": {
       "experience": {

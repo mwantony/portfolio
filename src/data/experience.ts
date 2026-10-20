@@ -2,103 +2,99 @@ import { ExperienceItem } from '../types';
 
 export const experienceData: ExperienceItem[] = [
   {
-    id: 'exp-1',
+    id: 'exp-alcance',
     isCurrent: true,
     period: {
-      pt: '2023 — Presente',
-      en: '2023 — Present',
+      pt: 'Outubro 2023 — No momento',
+      en: 'October 2023 — Present',
     },
     role: {
-      pt: 'Senior Software Developer / Tech Lead',
-      en: 'Senior Software Developer / Tech Lead',
-    },
-    company: 'Tech Innovations Studio',
-    location: {
-      pt: 'São Paulo, Brasil (Remoto)',
-      en: 'São Paulo, Brazil (Remote)',
-    },
-    description: {
-      pt: 'Liderança técnica e arquitetura de aplicações de missão crítica. Desenvolvimento de soluções fullstack de alto impacto com React, TypeScript, Node.js e Laravel, orquestrando migração para microsserviços e garantindo alta disponibilidade.',
-      en: 'Technical leadership and architecture of mission-critical systems. Engineering high-impact fullstack solutions with React, TypeScript, Node.js, and Laravel, guiding microservices migration and ensuring 99.9% uptime SLA.',
-    },
-    achievements: {
-      pt: [
-        'Arquitetou novo ecossistema de APIs em Laravel e Node.js reduzindo o tempo de carregamento em 40%',
-        'Implementou design system unificado em React + Tailwind CSS adotado por 4 times de engenharia',
-        'Estruturou pipelines automatizados de CI/CD e cultura de testes automatizados com Jest e Cypress',
-      ],
-      en: [
-        'Architected new API ecosystem with Laravel and Node.js decreasing overall page load latency by 40%',
-        'Standardized corporate design system in React + Tailwind CSS adopted across 4 engineering teams',
-        'Established automated CI/CD deployment pipelines and comprehensive automated testing culture',
-      ],
-    },
-    technologies: ['React', 'TypeScript', 'Node.js', 'Laravel', 'PostgreSQL', 'Docker', 'Tailwind CSS'],
-  },
-  {
-    id: 'exp-2',
-    isCurrent: false,
-    period: {
-      pt: '2021 — 2023',
-      en: '2021 — 2023',
-    },
-    role: {
-      pt: 'Full Stack Web Developer',
-      en: 'Full Stack Web Developer',
-    },
-    company: 'Vortex Digital Solutions',
-    location: {
-      pt: 'Remoto',
-      en: 'Remote',
-    },
-    description: {
-      pt: 'Desenvolvimento e manutenção de plataformas web de grande escala para clientes enterprise no setor financeiro e e-commerce.',
-      en: 'Development and maintenance of large-scale web platforms for enterprise clients across finance and high-volume e-commerce.',
-    },
-    achievements: {
-      pt: [
-        'Desenvolveu portais interativos em React com consumo de APIs RESTful e GraphQL',
-        'Construiu microsserviços em Node.js com filas Redis para processamento assíncrono de pagamentos',
-        'Otimizou consultas complexas de banco de dados em MySQL e PostgreSQL, reduzindo I/O em 50%',
-      ],
-      en: [
-        'Developed interactive client-facing portals in React consuming RESTful and GraphQL backend APIs',
-        'Engineered high-concurrency Node.js microservices with Redis queues for payment orchestration',
-        'Optimized heavy relational database queries in MySQL and PostgreSQL, cutting server I/O by 50%',
-      ],
-    },
-    technologies: ['React', 'Node.js', 'Laravel', 'MySQL', 'Redis', 'Docker', 'Git'],
-  },
-  {
-    id: 'exp-3',
-    isCurrent: false,
-    period: {
-      pt: '2019 — 2021',
-      en: '2019 — 2021',
-    },
-    role: {
-      pt: 'Software Developer',
+      pt: 'Desenvolvedor de Software',
       en: 'Software Developer',
     },
-    company: 'Nexus Software Labs',
+    company: 'Alcance Tecnologia',
     location: {
-      pt: 'Brasil',
-      en: 'Brazil',
+      pt: 'Brasil • PHP Laravel e Angular',
+      en: 'Brazil • PHP Laravel & Angular',
     },
     description: {
-      pt: 'Criação de módulos corporativos, refatoração de sistemas legados para Laravel e desenvolvimento de interfaces web responsivas.',
-      en: 'Creation of business management modules, legacy code refactoring into modern Laravel, and development of responsive web interfaces.',
+      pt: 'Atuação no desenvolvimento front-end e design de produtos digitais, unindo prototipagem no Figma à implementação de sistemas robustos e responsivos.',
+      en: 'Focused on front-end development and UI/UX product design, bridging Figma prototyping with the engineering of responsive, high-performance systems.',
     },
     achievements: {
       pt: [
-        'Migrou sistemas legados para Laravel 8 com arquitetura desacoplada e rotas de API seguras',
-        'Construiu dashboards analíticos modernos e interativos com JavaScript moderno e componentes reativos',
+        'Design com Figma: Projeção de interfaces de usuário intuitivas e funcionais, entregando soluções eficientes e visualmente envolventes para os projetos da empresa.',
+        'Desenvolvimento Front-End com Laravel e Angular: Criação de interfaces responsivas e interativas utilizando frameworks modernos, garantindo uma experiência de usuário fluida e agradável.',
       ],
       en: [
-        'Migrated monolithic legacy stacks into modern Laravel with clean decoupled service layers',
-        'Delivered responsive analytics dashboards utilizing modern component-based JavaScript',
+        'UI/UX Design with Figma: Designed intuitive and functional user interfaces, delivering efficient and engaging visual solutions across company products.',
+        'Front-End Engineering with Laravel & Angular: Built responsive, interactive interfaces utilizing modern frameworks, ensuring seamless and fluid user experiences.',
       ],
     },
-    technologies: ['Laravel', 'PHP', 'JavaScript', 'HTML5', 'CSS3', 'MySQL', 'Git'],
+    technologies: ['Laravel', 'PHP', 'Angular', 'TypeScript', 'Figma', 'MySQL', 'REST APIs'],
+  },
+  {
+    id: 'exp-vigi',
+    isCurrent: false,
+    period: {
+      pt: 'Setembro 2025 — Outubro 2025',
+      en: 'September 2025 — October 2025',
+    },
+    role: {
+      pt: 'Desenvolvedor de Software',
+      en: 'Software Developer',
+    },
+    company: 'Vigi Câmeras',
+    location: {
+      pt: 'Brasil • ReactJS & Supabase',
+      en: 'Brazil • ReactJS & Supabase',
+    },
+    description: {
+      pt: 'Desenvolvimento e evolução de sistema interno corporativo com foco em usabilidade, produtividade dos usuários e arquitetura em nuvem com Supabase.',
+      en: 'Development and optimization of internal enterprise systems focused on workflow usability, operational speed, and cloud data architecture with Supabase.',
+    },
+    achievements: {
+      pt: [
+        'Colaboração no desenvolvimento e manutenção do sistema interno da empresa, implementando novas funcionalidades e aprimorando fluxos de trabalho em React, garantindo maior eficiência e usabilidade.',
+        'Atuação na integração e gerenciamento de dados com Supabase, otimizando consultas, estruturação de tabelas relacionais e fluxos de autenticação para maior confiabilidade e desempenho.',
+      ],
+      en: [
+        'Collaborated on core development and maintenance of company internal tools, implementing new features and refining workflows in React to elevate usability.',
+        'Led Supabase data integration and management, optimizing queries, relational table structures, and authentication flows to assure high reliability and throughput.',
+      ],
+    },
+    technologies: ['React', 'TypeScript', 'Supabase', 'PostgreSQL', 'Tailwind CSS', 'Git'],
+  },
+  {
+    id: 'exp-drd',
+    isCurrent: false,
+    period: {
+      pt: 'Janeiro 2025 — Fevereiro 2025',
+      en: 'January 2025 — February 2025',
+    },
+    role: {
+      pt: 'Desenvolvedor de Software',
+      en: 'Software Developer',
+    },
+    company: 'DRD Móveis',
+    location: {
+      pt: 'Brasil • PHP Laravel e React',
+      en: 'Brazil • PHP Laravel & React',
+    },
+    description: {
+      pt: 'Concepção visual e implementação de interfaces interativas e responsivas unindo design centrado no usuário no Figma a backends e frontends modernos.',
+      en: 'Visual conception and delivery of interactive responsive storefront interfaces, marrying user-centered Figma designs with modern Laravel and React stacks.',
+    },
+    achievements: {
+      pt: [
+        'Projeção de interfaces de usuário intuitivas e funcionais no Figma, entregando soluções visualmente atraentes e eficientes em diversos projetos corporativos.',
+        'Papel ativo no desenvolvimento front-end com Laravel e React, construindo interfaces fluidas, responsivas e interativas para uma experiência envolvente.',
+      ],
+      en: [
+        'Designed functional, modern user interfaces in Figma, delivering aesthetic and high-converting visual solutions across key company initiatives.',
+        'Active development in fullstack/frontend using Laravel and React, engineering fluid and interactive interfaces for an engaging user experience.',
+      ],
+    },
+    technologies: ['Laravel', 'PHP', 'React', 'Figma', 'Tailwind CSS', 'MySQL', 'Git'],
   },
 ];

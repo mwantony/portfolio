@@ -1,7 +1,7 @@
 export const profileData = {
   name: 'Antony',
   role: 'Software Developer',
-  email: 'antony.developer@example.com',
+  email: 'againplayi7@gmail.com',
   github: 'https://github.com/mwantony',
   linkedin: 'https://linkedin.com/in/antony-developer',
   whatsapp: 'https://wa.me/5500000000000',

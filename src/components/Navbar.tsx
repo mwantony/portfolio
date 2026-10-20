@@ -144,7 +144,7 @@ export const Navbar: React.FC = () => {
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.2 }}
-            className="sm:hidden border-b border-border-light dark:border-border-dark glass-panel px-4 py-4"
+            className="sm:hidden border-b border-border-light dark:border-border-dark bg-surface-light/95 dark:bg-surface-dark/95 backdrop-blur-md px-4 py-4"
           >
             <nav className="flex flex-col gap-2">
               {navLinks.map((link) => (

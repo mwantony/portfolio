@@ -159,15 +159,15 @@ export const Hero: React.FC = () => {
                 </div>
                 <div className="pl-4">
                   <span className="text-txt-light-primary dark:text-txt-dark-primary">backend:</span>{' '}
-                  <span className="text-amber-600 dark:text-amber-300">['Node.js', 'Laravel', 'REST/GraphQL']</span>,
+                  <span className="text-amber-600 dark:text-amber-300">['Supabase', 'Node.js', 'REST APIs']</span>,
                 </div>
                 <div className="pl-4">
-                  <span className="text-txt-light-primary dark:text-txt-dark-primary">databases:</span>{' '}
-                  <span className="text-amber-600 dark:text-amber-300">['PostgreSQL', 'MySQL', 'Redis']</span>,
+                  <span className="text-txt-light-primary dark:text-txt-dark-primary">cloud & deploy:</span>{' '}
+                  <span className="text-amber-600 dark:text-amber-300">['Vercel', 'PostgreSQL', 'Docker']</span>,
                 </div>
                 <div className="pl-4">
-                  <span className="text-txt-light-primary dark:text-txt-dark-primary">methodologies:</span>{' '}
-                  <span className="text-amber-600 dark:text-amber-300">['Clean Arch', 'TDD', 'CI/CD']</span>
+                  <span className="text-txt-light-primary dark:text-txt-dark-primary">design:</span>{' '}
+                  <span className="text-amber-600 dark:text-amber-300">['Figma', 'UI/UX Design', 'Design Systems']</span>
                 </div>
                 <div className="text-txt-light-secondary dark:text-txt-dark-secondary">&#125;;</div>
               </div>
@@ -181,10 +181,10 @@ export const Hero: React.FC = () => {
                 </div>
                 <div>
                   <div className="text-xs font-semibold text-txt-light-primary dark:text-txt-dark-primary">
-                    Fullstack Versatility
+                    Modern Stack Focus
                   </div>
                   <div className="text-[11px] text-txt-light-secondary dark:text-txt-dark-secondary">
-                    React &bull; Node &bull; Laravel
+                    React &bull; Supabase &bull; Vercel
                   </div>
                 </div>
               </div>

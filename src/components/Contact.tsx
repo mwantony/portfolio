@@ -67,23 +67,47 @@ export const Contact: React.FC = () => {
     setIsSubmitting(true);
     setSubmitStatus('idle');
 
-    // Simulate sending with realistic network latency
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setSubmitStatus('success');
-      setFormData({
-        name: '',
-        email: '',
-        subject: '',
-        message: '',
+    try {
+      const response = await fetch('https://formsubmit.co/ajax/againplayi7@gmail.com', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+          _subject: `[Portfolio Antony] Novo contato de ${formData.name}: ${formData.subject}`,
+          _template: 'table',
+          _captcha: 'false',
+        }),
       });
-      setErrors({});
 
-      // Reset success status after 6 seconds
-      setTimeout(() => {
-        setSubmitStatus('idle');
-      }, 6000);
-    }, 1200);
+      if (response.ok) {
+        setSubmitStatus('success');
+        setFormData({
+          name: '',
+          email: '',
+          subject: '',
+          message: '',
+        });
+        setErrors({});
+
+        // Reset success status after 7 seconds
+        setTimeout(() => {
+          setSubmitStatus('idle');
+        }, 7000);
+      } else {
+        setSubmitStatus('error');
+      }
+    } catch (err) {
+      console.error('Error sending contact email:', err);
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleCopyEmail = () => {

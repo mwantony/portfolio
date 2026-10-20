@@ -15,7 +15,7 @@
     "name": "Antony",
     "role": "Software Developer",
     "tagline": "Construindo experiências digitais modernas, sistemas resilientes e arquiteturas web escaláveis.",
-    "bio": "Desenvolvedor focado em ecossistemas de alta performance com React, Node.js e Laravel. Unindo design minimalista, engenharia sólida e atenção obsessiva aos detalhes.",
+    "bio": "Desenvolvedor focado em ecossistemas modernos e escaláveis com React, TypeScript, Supabase e Vercel. Unindo design minimalista, interfaces intuitivas no Figma e engenharia sólida.",
     "ctaProjects": "Explorar Projetos",
     "ctaContact": "Entrar em Contato",
     "ctaResume": "Currículo",
@@ -26,9 +26,9 @@
   "about": {
     "sectionTag": "Trajetória & Filosofia",
     "title": "Sobre Mim",
-    "subtitle": "Combinando rigor de engenharia e sensibilidade visual modernista.",
-    "p1": "Com uma sólida bagagem no desenvolvimento web fullstack, atuo na concepção e entrega de aplicações completas — desde interfaces reativas e fluidas no frontend até arquiteturas de microsserviços, APIs RESTful e bancos de dados relacionais de alta volumetria no backend.",
-    "p2": "Minha especialização técnica transita com naturalidade entre o ecossistema moderno do React com TypeScript e o poder de backends robustos construídos com Node.js e Laravel (PHP). Tenho apreço por Clean Architecture, Domain-Driven Design (DDD), testes automatizados e pipelines de CI/CD contínuos.",
+    "subtitle": "Combinando rigor de engenharia, interfaces no Figma e sensibilidade modernista.",
+    "p1": "Com sólida bagagem no desenvolvimento web, atuo na concepção e entrega de aplicações completas — desde interfaces reativas e fluidas no frontend até arquiteturas escaláveis em nuvem integradas com Supabase, PostgreSQL e deploy automatizado na Vercel.",
+    "p2": "Minha especialização técnica transita com naturalidade entre o ecossistema moderno do React com TypeScript, Angular e o poder do Supabase (Autenticação, Banco de Dados Relacional e Edge Functions). Tenho apreço por Clean Architecture, UI/UX intuitivo no Figma e testes automatizados.",
     "p3": "Acredito que o verdadeiro design moderno reside na clareza: interfaces limpas, tipografia com propósito e arquitetura sem concessões de manutenibilidade.",
     "metrics": {
       "experience": {
