@@ -103,7 +103,7 @@ export const About: React.FC = () => {
             </h3>
           </div>
 
-          <div className="space-y-8 relative before:absolute before:inset-0 before:left-3 sm:before:left-5 before:w-0.5 before:bg-border-light dark:before:bg-border-dark before:h-full">
+          <div className="space-y-8 relative before:absolute before:top-3 before:bottom-3 before:left-4 sm:before:left-5 before:w-0.5 before:-translate-x-1/2 before:bg-border-light dark:before:bg-border-dark">
             {experienceData.map((exp, idx) => (
               <motion.div
                 key={exp.id}
@@ -111,11 +111,11 @@ export const About: React.FC = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1, duration: 0.4 }}
-                className="relative pl-9 sm:pl-14"
+                className="relative pl-9 sm:pl-12"
               >
                 {/* Timeline node */}
                 <div
-                  className={`absolute left-1.5 sm:left-3.5 top-1.5 -translate-x-1/2 w-4 h-4 rounded-full border-2 ${
+                  className={`absolute left-4 sm:left-5 top-7 -translate-x-1/2 w-4 h-4 rounded-full border-2 z-10 ${
                     exp.isCurrent
                       ? 'border-accent-500 bg-white dark:bg-canvas-dark ring-4 ring-accent-500/20'
                       : 'border-border-light dark:border-border-dark bg-canvas-light dark:bg-canvas-dark'
