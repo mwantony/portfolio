@@ -3,10 +3,10 @@ import { ExperienceItem } from '../types';
 export const experienceData: ExperienceItem[] = [
   {
     id: 'exp-alcance',
-    isCurrent: true,
+    isCurrent: false,
     period: {
-      pt: 'Outubro 2023 — No momento',
-      en: 'October 2023 — Present',
+      pt: 'Outubro 2023 — Outubro 2025',
+      en: 'October 2023 — October 2025',
     },
     role: {
       pt: 'Desenvolvedor de Software',
