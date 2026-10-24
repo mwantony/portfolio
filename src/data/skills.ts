@@ -27,14 +27,6 @@ export const skillsData: Skill[] = [
     yearsOfExperience: 4,
   },
   {
-    name: 'Angular',
-    category: 'frontend',
-    level: 'Advanced',
-    icon: 'Layout',
-    featured: true,
-    yearsOfExperience: 2,
-  },
-  {
     name: 'Figma (UI/UX Design)',
     category: 'frontend',
     level: 'Senior',
