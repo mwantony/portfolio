@@ -18,7 +18,7 @@ export const projectsData: Project[] = [
       en: "Tyra is a software engineering and AI platform uniting modern web development, intelligent automation, and cloud infrastructure. Built with React, Three.js, and Framer Motion, it delivers an immersive visual experience with 3D animations and sophisticated micro-interactions.",
     },
     tags: ['React', 'TypeScript', 'Three.js', 'Framer Motion', 'Vite', 'Vercel'],
-    image: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=1200&q=80',
+    image: '/screenshots/tyra-app.png',
     liveUrl: 'https://tyraapp.vercel.app',
     highlights: {
       pt: [
@@ -57,7 +57,7 @@ export const projectsData: Project[] = [
       en: "Tyra Transfer is a Progressive Web App that eliminates the need for cables or cloud services to transfer files between devices. Supports local WiFi, Bluetooth, and QR Code, with a native-like interface adapted for iOS and Android. No file size limits and no recurring subscription.",
     },
     tags: ['React', 'TypeScript', 'PWA', 'WebRTC', 'Bluetooth API', 'QR Code', 'Vercel'],
-    image: 'https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1200&q=80',
+    image: '/screenshots/tyra-transfer.png',
     liveUrl: 'https://tyra-transfer.vercel.app',
     highlights: {
       pt: [
@@ -96,7 +96,7 @@ export const projectsData: Project[] = [
       en: "Tyra Convert performs all conversions directly on the user's device, without sending any files to external servers. Supports multiple formats across documents, images, audio, video, and data files. The dark-first interface with JetBrains Mono typography delivers a premium experience for both technical and casual users.",
     },
     tags: ['React', 'TypeScript', 'WebAssembly', 'FFmpeg.wasm', 'Vite', 'Vercel'],
-    image: 'https://images.unsplash.com/photo-1618044733300-9472054094ee?auto=format&fit=crop&w=1200&q=80',
+    image: '/screenshots/tyra-convert.png',
     liveUrl: 'https://tyra-convert.vercel.app',
     highlights: {
       pt: [
