@@ -88,7 +88,7 @@ export const Skills: React.FC = () => {
           </div>
 
           {/* Category Filter Tabs */}
-          <div className="flex flex-wrap gap-1.5 p-1 rounded-xl border border-border-light dark:border-border-dark bg-surface-light dark:bg-surface-dark self-start md:self-auto">
+          <div className="flex gap-1.5 p-1 rounded-xl border border-border-light dark:border-border-dark bg-surface-light dark:bg-surface-dark self-start md:self-auto overflow-x-auto scrollbar-hide max-w-full" style={{ scrollbarWidth: 'none' }}>
             {categories.map((cat) => {
               const isSelected = selectedCategory === cat.key;
               return (
@@ -96,7 +96,7 @@ export const Skills: React.FC = () => {
                   key={cat.key}
                   onClick={() => setSelectedCategory(cat.key)}
                   type="button"
-                  className={`relative px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
+                  className={`relative shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
                     isSelected
                       ? 'text-white'
                       : 'text-txt-light-secondary dark:text-txt-dark-secondary hover:text-txt-light-primary dark:hover:text-txt-dark-primary'
